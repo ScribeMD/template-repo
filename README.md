@@ -51,10 +51,10 @@ GitHub Template Repository for ScribeMD
     [our custom hooks](https://github.com/ScribeMD/pre-commit-hooks) that befit
     your toolchain.
   - Specify appropriate
-    [MegaLinter flavor](https://oxsecurity.github.io/megalinter/latest/flavors/)
-    in [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
-  - Adjust [MegaLinter](https://oxsecurity.github.io/megalinter/) configuration
-    in [`.mega-linter.yaml`](.mega-linter.yaml) if necessary to match choices of
+    [MegaLinter flavor](https://megalinter.io/latest/flavors/) in
+    [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
+  - Adjust [MegaLinter](https://megalinter.io/) configuration in
+    [`.mega-linter.yaml`](.mega-linter.yaml) if necessary to match choices of
     language, formats, and tooling formats.
   - Add any needed [CSpell](https://cspell.org/) dictionaries to
     [`cspell.config.yaml`](cspell.config.yaml).
