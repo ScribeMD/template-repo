@@ -6,13 +6,13 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: write
+  pull-requests: read
 jobs:
   test:
     name: Run Pre-commit Hooks
     uses: ScribeMD/pre-commit-action/.github/workflows/test.yaml@0.9.51
-    permissions:
-      contents: write
-      pull-requests: read
     with:
       bump: false
     secrets:
