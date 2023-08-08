@@ -70,12 +70,6 @@ GitHub Template Repository for ScribeMD
   - [Configure automatic deletion of head branches when pull requests are merged](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches).
   - [Configure repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
     if needed.
-  - For private repositories only:
-    - Configure
-      [markdown-link-check](https://github.com/tcort/markdown-link-check/)
-      to ignore URLs beginning with the repository's GitHub URL in
-      [`.markdown-link-check.json`](.markdown-link-check.json) since it cannot
-      log in with your GitHub credentials.
 
 ## Changelog
 
