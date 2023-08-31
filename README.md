@@ -68,8 +68,19 @@ GitHub Template Repository for ScribeMD
     since we use a
     [rebase-based workflow](https://git-scm.com/book/en/v2/Git-Branching-Rebasing).
   - [Configure automatic deletion of head branches when pull requests are merged](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches).
-  - [Configure repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+  - [Configure organization or repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
     if needed.
+    - [Set `SLACK_BOT_TOKEN`.](https://github.com/slackapi/slack-github-action#technique-2-slack-app)
+    - To obtain the channel IDs, secondary-click on the desired channel in
+      Slack, and select "Copy link" to copy a URL containing the channel ID.
+      Remove the rest of the URL; the secret should only contain the channel ID.
+      - Set `SLACK_ACTIONS_CHANNEL_ID` for GitHub Actions job/workflow results.
+      - Set `SLACK_ASSIGN_CHANNEL_ID` for pull request assignment notifications.
+      - Set `SLACK_REVIEW_CHANNEL_ID` for pull request review requests.
+  - [Install Forking Renovate](https://github.com/apps/forking-renovate) or the
+    [Mend Renovate app](https://github.com/apps/renovate), or
+    [self-host Renovate](https://docs.renovatebot.com/#ways-to-run-renovate) to
+    automate dependency updates.
 
 ## Changelog
 
