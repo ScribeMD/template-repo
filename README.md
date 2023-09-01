@@ -81,6 +81,9 @@ GitHub Template Repository for ScribeMD
     [Mend Renovate app](https://github.com/apps/renovate), or
     [self-host Renovate](https://docs.renovatebot.com/#ways-to-run-renovate) to
     automate dependency updates.
+  - Follow the
+    [contributing guide](https://github.com/ScribeMD/.github/blob/main/CONTRIBUTING.md)
+    to complete setup.
 
 ## Changelog
 
