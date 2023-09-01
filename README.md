@@ -25,65 +25,65 @@ GitHub Template Repository for ScribeMD
 
 ## Usage
 
-- As this is a
-  [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository),
-  please refer to
-  [creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-  Only copy the default branch.
+- [ ] As this is a
+      [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository),
+      please refer to
+      [creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+      Only copy the default branch.
 - Perform the following steps in the new repository:
-  - Add any appropriate
-    [starter workflows](https://docs.github.com/en/actions/using-workflows/using-starter-workflows).
-  - Find and replace references to the repository name.
-  - Add any file path patterns that should not be version controlled to
-    [`.gitignore`](.gitignore), such as those created by tools. Not only
-    [Git](https://git-scm.com/docs/gitignore), but most of our tools respect
-    this list. However, you may occasionally find need to explicitly instruct
-    particular tools to ignore particular files if they do not read from
-    [`.gitignore`](.gitignore) or
-    [do so incorrectly](https://github.com/kucherenko/jscpd/issues/466).
-  - Add any needed development tools with an
-    [available asdf plugin](https://github.com/asdf-vm/asdf-plugins) to
-    [`.tool-versions`](.tool-versions).
-  - Add any appropriate [pre-commit hooks](https://pre-commit.com/hooks.html)
-    to [`.pre-commit-config.yaml`](.pre-commit-config.yaml), and update
-    `default_install_hook_types` if introducing a new hook stage. In particular,
-    include all of
-    [our custom hooks](https://github.com/ScribeMD/pre-commit-hooks) that befit
-    your toolchain.
-  - Specify appropriate
-    [MegaLinter flavor](https://megalinter.io/latest/flavors/) in
-    [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
-  - Adjust [MegaLinter](https://megalinter.io/) configuration in
-    [`.mega-linter.yaml`](.mega-linter.yaml) if necessary to match choices of
-    language, formats, and tooling formats.
-  - Add any needed [CSpell](https://cspell.org/) dictionaries to
-    [`cspell.config.yaml`](cspell.config.yaml).
-  - Update the [`LICENSE`](LICENSE) copyright year(s) if necessary.
-  - Update the project name, description, and authors in
-    [`pyproject.toml`](pyproject.toml).
-  - Modify the [`README.md`](README.md) to document the new repository.
-  - [Classify your repository with topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics),
-    and set the repository description on GitHub.
-  - [Disable merge commits and squash merging](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github)
-    since we use a
-    [rebase-based workflow](https://git-scm.com/book/en/v2/Git-Branching-Rebasing).
-  - [Configure automatic deletion of head branches when pull requests are merged](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches).
-  - [Configure organization or repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
-    if needed.
-    - [Set `SLACK_BOT_TOKEN`.](https://github.com/slackapi/slack-github-action#technique-2-slack-app)
+  - [ ] Add any appropriate
+        [starter workflows](https://docs.github.com/en/actions/using-workflows/using-starter-workflows).
+  - [ ] Find and replace references to the repository name.
+  - [ ] Add any file path patterns that should not be version controlled to
+        [`.gitignore`](.gitignore), such as those created by tools. Not only
+        [Git](https://git-scm.com/docs/gitignore), but most of our tools respect
+        this list. However, you may occasionally find need to explicitly instruct
+        particular tools to ignore particular files if they do not read from
+        [`.gitignore`](.gitignore) or
+        [do so incorrectly](https://github.com/kucherenko/jscpd/issues/466).
+  - [ ] Add any needed development tools with an
+        [available asdf plugin](https://github.com/asdf-vm/asdf-plugins) to
+        [`.tool-versions`](.tool-versions).
+  - [ ] Add any appropriate [pre-commit hooks](https://pre-commit.com/hooks.html)
+        to [`.pre-commit-config.yaml`](.pre-commit-config.yaml), and update
+        `default_install_hook_types` if introducing a new hook stage. In particular,
+        include all of
+        [our custom hooks](https://github.com/ScribeMD/pre-commit-hooks) that befit
+        your toolchain.
+  - [ ] Specify appropriate
+        [MegaLinter flavor](https://megalinter.io/latest/flavors/) in
+        [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
+  - [ ] Adjust [MegaLinter](https://megalinter.io/) configuration in
+        [`.mega-linter.yaml`](.mega-linter.yaml) if necessary to match choices of
+        language, formats, and tooling formats.
+  - [ ] Add any needed [CSpell](https://cspell.org/) dictionaries to
+        [`cspell.config.yaml`](cspell.config.yaml).
+  - [ ] Update the [`LICENSE`](LICENSE) copyright year(s) if necessary.
+  - [ ] Update the project name, description, and authors in
+        [`pyproject.toml`](pyproject.toml).
+  - [ ] Modify the [`README.md`](README.md) to document the new repository.
+  - [ ] [Classify your repository with topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics),
+        and set the repository description on GitHub.
+  - [ ] [Disable merge commits and squash merging](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github)
+        since we use a
+        [rebase-based workflow](https://git-scm.com/book/en/v2/Git-Branching-Rebasing).
+  - [ ] [Configure automatic deletion of head branches when pull requests are merged](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches).
+  - [ ] [Configure organization or repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+        if needed.
+    - [ ] [Set `SLACK_BOT_TOKEN`.](https://github.com/slackapi/slack-github-action#technique-2-slack-app)
     - To obtain the channel IDs, secondary-click on the desired channel in
       Slack, and select "Copy link" to copy a URL containing the channel ID.
       Remove the rest of the URL; the secret should only contain the channel ID.
-      - Set `SLACK_ACTIONS_CHANNEL_ID` for GitHub Actions job/workflow results.
-      - Set `SLACK_ASSIGN_CHANNEL_ID` for pull request assignment notifications.
-      - Set `SLACK_REVIEW_CHANNEL_ID` for pull request review requests.
-  - [Install Forking Renovate](https://github.com/apps/forking-renovate) or the
-    [Mend Renovate app](https://github.com/apps/renovate), or
-    [self-host Renovate](https://docs.renovatebot.com/#ways-to-run-renovate) to
-    automate dependency updates.
-  - Follow the
-    [contributing guide](https://github.com/ScribeMD/.github/blob/main/CONTRIBUTING.md)
-    to complete setup.
+      - [ ] Set `SLACK_ACTIONS_CHANNEL_ID` for GitHub Actions job/workflow results.
+      - [ ] Set `SLACK_ASSIGN_CHANNEL_ID` for pull request assignment notifications.
+      - [ ] Set `SLACK_REVIEW_CHANNEL_ID` for pull request review requests.
+  - [ ] [Install Forking Renovate](https://github.com/apps/forking-renovate) or the
+        [Mend Renovate app](https://github.com/apps/renovate), or
+        [self-host Renovate](https://docs.renovatebot.com/#ways-to-run-renovate)
+        to automate dependency updates.
+  - [ ] Follow the
+        [contributing guide](https://github.com/ScribeMD/.github/blob/main/CONTRIBUTING.md)
+        to complete setup.
 
 ## Changelog
 
