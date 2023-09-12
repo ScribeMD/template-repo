@@ -41,6 +41,8 @@ GitHub Template Repository for ScribeMD
         particular tools to ignore particular files if they do not read from
         [`.gitignore`](.gitignore) or
         [do so incorrectly](https://github.com/kucherenko/jscpd/issues/466).
+  - [ ] [If you wish to enable automatic version bumps through Commitizen](https://commitizen-tools.github.io/commitizen/bump/),
+        remove `bump: false` in [`.github/workflows/test.yaml`](.github/workflows/test.yaml).
   - [ ] Add any needed development tools with an
         [available asdf plugin](https://github.com/asdf-vm/asdf-plugins) to
         [`.tool-versions`](.tool-versions).
