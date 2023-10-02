@@ -74,7 +74,7 @@ GitHub Template Repository for ScribeMD
         if needed.
     - [ ] [Set `SLACK_BOT_TOKEN`.](https://github.com/slackapi/slack-github-action#technique-2-slack-app)
     - To obtain the channel IDs, secondary-click on the desired channel in
-      Slack, and select "Copy link" to copy a URL containing the channel ID.
+      Slack, and select “Copy link” to copy a URL containing the channel ID.
       Remove the rest of the URL; the secret should only contain the channel ID.
       - [ ] Set `SLACK_ACTIONS_CHANNEL_ID` for GitHub Actions job/workflow results.
       - [ ] Set `SLACK_ASSIGN_CHANNEL_ID` for pull request assignment notifications.
